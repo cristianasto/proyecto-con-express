@@ -8,7 +8,7 @@ export class Rutas {
     static get routes(): Router {
         const router = Router();
 
-        router.use('/api/todos', TodoRoutes.routes)
+        router.use('/api/todo', TodoRoutes.routes)
 
         return router
     }
